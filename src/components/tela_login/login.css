@@ -1,0 +1,77 @@
+body {
+  background-color: #004A8D;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+p {
+  color: #004A8D;
+}
+
+.login-container {
+  width: 400px;
+  height: 450px; /* Aumentei a altura para acomodar o link "Esqueceu senha ou email?" */
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: center; /* Centralizando o conteúdo dos inputs */
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #004A8D;
+}
+
+.input-group input {
+  width: calc(100% - 16px); /* Ajustando a largura para centralizar e compensar o padding */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: auto; /* Centralizando o input */
+  display: block;
+}
+
+button {
+  padding: 12px 20px; /* Aumentando o tamanho do botão */
+  background-color: #ff9900d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  margin: auto; /* Centralizando o botão */
+}
+
+button:hover {
+  background-color: #ff990086;
+}
+
+#message {
+  color: red;
+  font-weight: bold;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #004A8D;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

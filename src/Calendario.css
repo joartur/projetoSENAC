@@ -1,0 +1,61 @@
+.calendario-container .react-calendar__navigation {
+    font-size: 20px; 
+  }
+  
+  .calendario-container .react-calendar__navigation__label {
+    text-transform: capitalize; 
+  }
+  
+  .calendar-dot.has-message {
+    color: green;
+  }
+  
+  .calendario-container {
+    display: flex;
+  }
+  
+  .calendar {
+    flex: 1;
+  }
+  
+  .messages {
+    flex: 1;
+  }
+  
+  .react-calendar__tile.has-message {
+    background: rgb(127, 244, 127);
+  }
+  
+  /* Estilo para a tabela */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo para as células do cabeçalho (th) */
+  .custom-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: blue; /* Texto em cor azul */
+  }
+  
+  /* Estilo para as células de dados (td) */
+  .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilo para linhas alternadas (zebra-striping) */
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para a última linha */
+  .custom-table tr:last-child {
+    border-bottom: 2px solid #000;
+  }
+   

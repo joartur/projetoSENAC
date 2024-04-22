@@ -1,0 +1,132 @@
+aside {
+    width: 270px;
+    max-height: 100%; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 2px solid #DFDFDF;
+    bottom: 0; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    max-height: 100%; 
+}
+
+.logo-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img{
+    max-width: 40%;
+    height: auto;
+    margin: 40px 0px 40px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    aside {
+        width: 65%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+
+    .logo-container {
+        margin: -50px 0px; 
+    }
+
+    .logo-container img {
+        max-width: 100%;
+    }
+
+    .logo-container a {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        background-color: #fff;
+        border-top: 2px solid #000000;
+    }
+
+    .header-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%; 
+        margin-top: 0; 
+    }
+
+    .header-nav li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    aside {
+        width: 60%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+        width: 55%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    aside {
+        width: 50%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    aside {
+        width: 45%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    aside {
+        width: 40%;
+        max-height: auto; 
+        left: auto;
+        top: auto;
+        bottom: 0;
+        border-right: none;
+        background-color: #fff; 
+    }
+}
